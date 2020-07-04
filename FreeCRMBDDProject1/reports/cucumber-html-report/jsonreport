@@ -1,0 +1,137 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 14066883300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "To open the browser and navigate to the URL",
+            "match": {
+              "location": "CampaignStepDefinition.to_open_the_browser_and_navigate_to_the_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 17379500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the title of login page is FreeCRM",
+            "match": {
+              "location": "CampaignStepDefinition.the_title_of_login_page_is_FreeCRM()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1323563800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user enters \"k.meeraanand@gmail.com\" and \"Dhanush123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "k.meeraanand@gmail.com",
+                  "offset": 17
+                },
+                {
+                  "val": "Dhanush123",
+                  "offset": 46
+                }
+              ],
+              "location": "CampaignStepDefinition.the_user_enters_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 129032000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "CampaignStepDefinition.user_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 213300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is on homepage",
+            "match": {
+              "location": "CampaignStepDefinition.user_is_on_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "Navigate to Campaign Page",
+        "description": "",
+        "id": "free-crm-campaign;navigate-to-campaign-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 177200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User is on homepage",
+            "match": {
+              "location": "CampaignStepDefinition.user_is_on_homepage1()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4802859400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User clicks on Campaigns",
+            "match": {
+              "location": "CampaignStepDefinition.user_clicks_on_Campaigns()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5738953000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User clicks on New",
+            "match": {
+              "location": "CampaignStepDefinition.user_clicks_on_New()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Free CRM Campaign",
+    "description": "",
+    "id": "free-crm-campaign",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/campaigns.feature"
+  }
+]
